@@ -69,7 +69,7 @@
   - Use `terraform.tfvars` or `-var-file` to pass variable values.
   - Environment variables: Prefix with `TF_VAR_` (e.g., `TF_VAR_instance_type`).
 
-### Variable Specification Precedence**
+### **Variable Specification Precedence**
 Terraform allows you to specify variables in multiple ways. The **precedence order** determines which value is used when multiple sources are defined.
 
 ### **Precedence Order (Highest to Lowest)**
