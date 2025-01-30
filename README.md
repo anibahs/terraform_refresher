@@ -69,7 +69,7 @@
   - Use `terraform.tfvars` or `-var-file` to pass variable values.
   - Environment variables: Prefix with `TF_VAR_` (e.g., `TF_VAR_instance_type`).
 
-## **3. Variable Specification Precedence**
+### Variable Specification Precedence**
 Terraform allows you to specify variables in multiple ways. The **precedence order** determines which value is used when multiple sources are defined.
 
 ### **Precedence Order (Highest to Lowest)**
@@ -220,7 +220,7 @@ Terraform state (`terraform.tfstate`) is a critical component that tracks the cu
   - Control resource lifecycle (e.g., `prevent_destroy`).
 
 
-## **1. `count` vs `for_each`**
+### **`count` vs `for_each`**
 Both `count` and `for_each` are meta-arguments used to create multiple instances of a resource or module. However, they have different use cases and behaviors.
 
 ### **`count`**
